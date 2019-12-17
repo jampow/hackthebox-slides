@@ -1,0 +1,24 @@
+{
+  "name": "hackthebox",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "jampow/hackthebox-slides",
+  "scripts": {
+    "build": "reveal-md slides.md --static dist",
+    "start": "nodemon -e 'reveal-md slides.md' -w 'slides.md'"
+  },
+  "keywords": [
+    "slides",
+    "secops",
+    "security",
+    "hackthebox"
+  ],
+  "author": "Gianpaulo M. Soares",
+  "license": "MIT",
+  "dependencies": {
+    "reveal-md": "^3.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
