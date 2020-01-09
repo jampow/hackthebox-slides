@@ -42,19 +42,19 @@ Gianpaulo M. Soares
 
 ----
 
-![shame?](/imgs/bugbounty-ph4.jpg)
+![shame?](imgs/bugbounty-ph4.jpg)
 
 ----
 
-![pornhub swag gift](/imgs/bugbounty-ph1.png)
+![pornhub swag gift](imgs/bugbounty-ph1.png)
 
 ----
 
-![pornhub swag gift](/imgs/bugbounty-ph2.jpg)
+![pornhub swag gift](imgs/bugbounty-ph2.jpg)
 
 ----
 
-![pornhub swag gift](/imgs/bugbounty-ph3.jpg)
+![pornhub swag gift](imgs/bugbounty-ph3.jpg)
 
 ---
 
