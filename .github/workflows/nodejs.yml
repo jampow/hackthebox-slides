@@ -23,3 +23,6 @@ jobs:
         npm run build
       env:
         CI: true
+    - name: list dist
+      run: |
+        ls dist
