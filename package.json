@@ -5,7 +5,7 @@
   "repository": "jampow/hackthebox-slides",
   "scripts": {
     "build": "reveal-md slides.md --static dist",
-    "start": "nodemon -e 'reveal-md slides.md' -w 'slides.md'"
+    "start": "reveal-md slides.md -w slides.md"
   },
   "keywords": [
     "slides",

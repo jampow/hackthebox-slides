@@ -2,57 +2,66 @@
 
 ---
 
+# whoami
+
+----
+
+Gianpaulo M. Soares
+
+---
+
 # O que é?
 
 ---
 
 # Por que?
 
----
+----
 
 ## 1. CTF (Capture The Flag)
 
-* [Sobre o CTF (Ingẽs)](https://www.youtube.com/watch?v=8ev9ZX9J45A)
+* [Sobre o CTF (Inglês)](https://www.youtube.com/watch?v=8ev9ZX9J45A)
 
----
+----
 
 ## 2. Bug bounties
 
 * [Bug Crowd](https://www.bugcrowd.com/bug-bounty-list/)
 
----
+----
 
 [Hackerone](https://hackerone.com)
 
----
+----
 
 [Hackerone Github](https://hackerone.com/github)
 
----
+----
 
 [Hackerone Pornhub](https://hackerone.com/pornhub)
 
----
+----
 
-<!-- .slide: data-background="imgs/bugbounty-ph4.jpg" -->
+![shame?](/imgs/bugbounty-ph4.jpg)
 
----
+----
 
-<!-- .slide: data-background="imgs/bugbounty-ph1.png" -->
+![pornhub swag gift](/imgs/bugbounty-ph1.png)
 
----
+----
 
-<!-- .slide: data-background="imgs/bugbounty-ph2.jpg" -->
+![pornhub swag gift](/imgs/bugbounty-ph2.jpg)
 
----
+----
 
-<!-- .slide: data-background="imgs/bugbounty-ph3.jpg" -->
+![pornhub swag gift](/imgs/bugbounty-ph3.jpg)
 
 ---
 
 # Onde começar?
 
 * nmap, curl, dig, nc, etc.
+* [Kali Linux](https://kali.org)
 * [/r/hackthebox](https://reddit.com/r/hackthebox)
 * [owasp  cheat sheet(Open Web Application Security Project)](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series)
 * [metasploit](https://metasploit.com)
@@ -69,10 +78,10 @@
 
 # Eventos
 
-* h2hc
-* roadsec
-* bsides
-* ysts
+* h2hc (Outubro 2019)
+* roadsec (São Paulo - Novembro 2019 | Campinas - Abril 2019)
+* bsides (Maio 2019)
+* ysts (Mail 2019)
 
 ---
 
