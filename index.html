@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># How to hack the box
+</script></section><section  data-markdown><script type="text/template">
+# O que é?
+</script></section><section ><section data-markdown><script type="text/template">
+# Por que?
+</script></section><section data-markdown><script type="text/template">
+## 1. CTF (Capture The Flag)
+
+* [Sobre o CTF (Inglês)](https://www.youtube.com/watch?v=8ev9ZX9J45A)
+</script></section><section data-markdown><script type="text/template">
+## 2. Bug bounties
+
+* [Bug Crowd](https://www.bugcrowd.com/bug-bounty-list/)
+</script></section><section data-markdown><script type="text/template">
+[Hackerone](https://hackerone.com)
+</script></section><section data-markdown><script type="text/template">
+[Hackerone Github](https://hackerone.com/github)
+</script></section><section data-markdown><script type="text/template">
+[Hackerone Pornhub](https://hackerone.com/pornhub)
+</script></section><section data-markdown><script type="text/template">
+![shame?](imgs/bugbounty-ph4.jpg)
+</script></section><section data-markdown><script type="text/template">
+![pornhub swag gift](imgs/bugbounty-ph1.png)
+</script></section><section data-markdown><script type="text/template">
+![pornhub swag gift](imgs/bugbounty-ph2.jpg)
+</script></section><section data-markdown><script type="text/template">
+![pornhub swag gift](imgs/bugbounty-ph3.jpg)
+</script></section></section><section  data-markdown><script type="text/template">
+# Onde começar?
+
+* nmap, curl, dig, nc, etc.
+* [Kali Linux](https://kali.org)
+* [/r/hackthebox](https://reddit.com/r/hackthebox)
+* [owasp  cheat sheet(Open Web Application Security Project)](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series)
+* [metasploit](https://metasploit.com)
+</script></section><section  data-markdown><script type="text/template">
+# Como praticar?
+## (Sem ser preso)
+
+* [hackthebox.eu](https://hackthebox.eu)
+* [Garoa Hacker Clube](https://garoa.net.br/wiki/Capture_The_Flag)
+</script></section><section  data-markdown><script type="text/template">
+# Eventos
+
+* h2hc (Outubro 2019)
+* roadsec (São Paulo - Novembro 2019 | Campinas - Abril 2019)
+* bsides (Maio 2019)
+* ysts (Mail 2019)
+</script></section><section  data-markdown><script type="text/template">
+# Obrigado
+</script></section></div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
